@@ -10,7 +10,7 @@ gis = GIS(gis_url,username,password)
 
 gis_url = "https://swggis.com/portal"
 username = "jason.jordan_swg"
-password = "QAZw1s2x3"
+password = input(" Azure Password: ")
 gis2 = GIS(gis_url,username,password)
 
 damaged_homes = gis.content.get('8a07510d660d4543ac3f5e990176e729') # flooded homes layer
