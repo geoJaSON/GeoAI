@@ -5,7 +5,7 @@ from arcgis.raster import ImageryLayer
 
 gis_url = "https://ceswg.maps.arcgis.com"
 username = "Jason.Jordan@SWD"
-password = "QAZw1s2x3"
+password = input("Password: ")
 gis = GIS(gis_url,username,password)
 
 gis_url = "https://swggis.com/portal"
